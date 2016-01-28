@@ -92,3 +92,16 @@ footer {
   border-radius : 50px;
   }
   
+/*---Media---*/
+
+@media screen and (max-width: 740px) {
+  .left-col {
+    width : 100%;
+  }
+  .sidebar {
+    width : 100%;
+  }
+}
+  }
+  }
+}
