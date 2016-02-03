@@ -43,7 +43,7 @@ header ul {
   text-align : center;
   list-style : none;
   }
-header li a {
+header li {
   text-align : center;
   color : #000000;
   float : left;
