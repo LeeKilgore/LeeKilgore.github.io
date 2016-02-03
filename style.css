@@ -28,15 +28,16 @@ img {
   border-radius : 10px;
   }
 header  {
-  width : 96%;
+  width : 100%;
   padding : 5px;
   text-align : center;
   }
 nav {
-  width : 96%;
+  width : 100%;
+  min-width : 326px;
   text-align : center;
   background : #a09885;
-  padding : 11px;
+  padding : 8px;
   border-radius : 10px;
   }
 nav ul {
@@ -48,13 +49,13 @@ nav li {
   text-align : center;
   color : #000000;
   display:inline;
-  padding : 20px;
+  padding : 10px;
   text-decoration : none;
   }
 nav a {
   text-align : center;
   color : #000000;
-  padding : 20px;
+  padding : 10px;
   text-decoration : none;
   }
 nav a:hover {
