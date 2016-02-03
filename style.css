@@ -79,6 +79,7 @@ nav a:hover {
 #social ul {
   text-align : center;
   list-style : none;
+  padding : 0px;
   }
 #social li {
   text-align : center;
