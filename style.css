@@ -34,7 +34,7 @@ header  {
   }
 nav {
   width : 96%;
-  min-width : 600px;
+  white-space:nowrap;
   text-align : center;
   background : #a09885;
   padding : 8px;
