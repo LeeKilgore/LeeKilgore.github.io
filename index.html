@@ -2,11 +2,21 @@
 <html>
   <head>
     <title>Boxer Dogs</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    
     <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
     <META HTTP-EQUIV="Expires" CONTENT="-1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+    <script>
+    function disableAutoPlay()
+    {
+      var myvid = document.getElementById("dogVideo");
+      myvid.autoplay = false;
+      myvid.load();
+    }
+    </script>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
     <div id="wrapper">
@@ -51,8 +61,10 @@
       <section class="left-col">
         <h3>Food</h3>
         <div class="vid">
-        <iframe width="560" height="315" src="http://www.w3newbie.com/wp-content/uploads/boxer3.png" frameborder="0" allowfullscreen></iframe>
-        <p>Dogs are great.  Dogs are fun. Dogs are great.  Dogs are fun.Dogs are great.  Dogs are fun.Dogs are great.  Dogs are fun.Dogs are great.  Dogs are fun.Dogs are great.  Dogs are fun.Dogs are great.  Dogs are fun.Dogs are great.  Dogs are fun.</p>
+          <video id="dogVideo" width="320" height="176" controls="controls">
+          <source src="http://kilgorei.pairserver.com/tech-club/HTML5.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+          </video>
         </div>
       </section>
       <div class="clear"></div>
