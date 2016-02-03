@@ -47,7 +47,11 @@ nav li a {
   padding : 20px;
   text-decoration : none;
   }
-nav a:hover nav li:active a {
+nav a:hover {
+  background-color : #322f2c;
+  color : #ffffff;
+  }
+nav li:active {
   background-color : #322f2c;
   color : #ffffff;
   }
