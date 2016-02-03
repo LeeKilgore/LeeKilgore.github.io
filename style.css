@@ -74,6 +74,8 @@ nav a:hover {
   height : 50px;
   width : 50px;
   max-width : 22%;
+  height : auto;
+  width : auto;
   }
 #social ul {
   text-align : center;
