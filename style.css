@@ -75,6 +75,24 @@ nav a:hover {
   height : 50px;
   width : 50px;
   }
+#social ul {
+  width : 96%;
+  text-align : center;
+  list-style : none;
+  }
+#social li {
+  text-align : center;
+  color : #000000;
+  display:inline;
+  padding : 20px;
+  text-decoration : none;
+  }
+#social a {
+  text-align : center;
+  color : #000000;
+  padding : 20px;
+  text-decoration : none;
+  }
 .left-col {
   background : #dad5c1;
   width : 60%;
