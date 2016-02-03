@@ -28,6 +28,7 @@ header  {
   text-align : center;
   }
 nav {
+  align : center;
   text-align : center;
   background : #a09885;
   padding : 0;
@@ -53,7 +54,7 @@ nav a:hover {
   color : #ffffff;
   border-radius : 10px;
   }
-nav li:active {
+nav a:active {
   background-color : #322f2c;
   color : #ffffff;
   }
