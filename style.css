@@ -38,19 +38,19 @@ nav {
   background : #a09885;
   border-radius : 10px;
   }
-header ul {
+nav ul {
   width : 96%;
   text-align : center;
   list-style : none;
   }
-header li {
+nav li {
   text-align : center;
   color : #000000;
-  float : left;
+  display:inline;
   padding : 20px;
   text-decoration : none;
   }
-header a:hover {
+nav a:hover {
   background-color : #322f2c;
   color : #ffffff;
   border-radius : 10px;
