@@ -1,7 +1,6 @@
 body  {
   background : #dad5c1;
   text-align : center;
-  font-family : "Helvetica","Arial","Tahoma";
   }
 table {
   text-align : center;
@@ -44,7 +43,7 @@ nav ul {
   text-align : center;
   list-style : none;
   }
-nav li a {
+nav li {
   text-align : center;
   color : #000000;
   float : left;
@@ -56,10 +55,7 @@ nav a:hover {
   color : #ffffff;
   border-radius : 10px;
   }
-nav a:active {
-  background-color : #322f2c;
-  color : #ffffff;
-  }
+
 .clear  {
   clear : both;
   }
