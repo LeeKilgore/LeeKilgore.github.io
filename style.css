@@ -43,13 +43,14 @@ nav ul {
 nav li a {
   color : #000000;
   display : block;
-  float : left;
+  float : center;
   padding : 20px;
   text-decoration : none;
   }
 nav a:hover {
   background-color : #322f2c;
   color : #ffffff;
+  border-radius : 10px;
   }
 nav li:active {
   background-color : #322f2c;
