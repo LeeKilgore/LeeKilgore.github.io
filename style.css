@@ -122,9 +122,10 @@ nav a:hover {
   left : 0;
   width : auto;
   height : auto;
+  background-color : #ff0000
   }
 .dogVideo {
-  width : auto;
+  width : 300;
   height : auto;
 }
 footer {
