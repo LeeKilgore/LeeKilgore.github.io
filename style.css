@@ -110,19 +110,17 @@ nav a:hover {
 }
 .vid {
   position : relative;
-  padding-bottom : 20%;
+  padding-bottom : 56.25%;
   padding-top : 30px;
   overflow : hidden;
-  width : 300px;
-  height : auto;
+  height : 0;
   }
 .vid iframe {
   position : absolute;
   top : 0;
   left : 0;
-  width : 300px;
-  height : auto;
-  background-color : #ff0000
+  background-color : #ff0000;
+  background : #ff0000;
   }
 .dogVideo {
   width : 300px;
