@@ -113,19 +113,19 @@ nav a:hover {
   padding-bottom : 20%;
   padding-top : 30px;
   overflow : hidden;
-  width : auto;
+  width : 300px;
   height : auto;
   }
 .vid iframe {
   position : absolute;
   top : 0;
   left : 0;
-  width : auto;
+  width : 300px;
   height : auto;
   background-color : #ff0000
   }
 .dogVideo {
-  width : 300;
+  width : 300px;
   height : auto;
 }
 footer {
